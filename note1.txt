@@ -1,0 +1,37 @@
+pemberian materi mengenai GIT
+oleh bg apip, bg nijal, bg pandu
+
+topik pada malam ini adalah bagaimana codingan dapat terhubung satu sama lain
+
+version control system menggunakan git
+konsep vc
+github
+
+local verison control =hanya berjalan pada local komputer, tidak bisa digunakan ramai ramai
+centralized version control= komputer rusak maka seluruh data hilang, sulit berkobaloasi dghn  pengguna lain karen disimpan di 1 komputer, pengguna offline makan tdk bisa meligat riwayat
+perubahan yg disimpan
+distribute version control system server 
+
+konsep vcs git
+sistem yang digunakan untuk memanage mengatur bagaimana perilaku kode untuk dibuat versi control system 
+contoh skripsi revisi meggunakan git makan memiliki riwayat,
+
+github adalah platform untuk manajemen proyek, git adalah sistemnya
+git repisotery adalah sebuah folder yang dimana kita menyimpan seluruh data kita
+terdiri dari 2 yaitu git dan vcs
+git hanya bis diakses
+github emiliki ui ux
+
+beberapa yg familiar dlm git
+repositery =istilah folder pada git(1file .git menyimpan segala perubhan yang ada ex menambah mengedit, apabila .git dihapus akan hilang semua)
+ membuat folder kosong di windows kemudia jadikan file kosong menjadi file repository dengan command git.init, y kedua menggunakan clone repositori yg sudah ada di git server
+
+mkdir make directory
+cd change directory
+pwd cek direktori
+code .
+
+git status
+git add[file]
+
+tugas suatu aplikasi repository kerja bareng untuk projek terserah
