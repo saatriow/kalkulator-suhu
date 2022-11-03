@@ -3,7 +3,7 @@ print("========== KALKULATOR SUHU GIS 2 ==========")
 print("Silahkan pilih suhu yang ingin dirubah")
 pil = int(input("1. Celcius \n2. Fahrenheit \n3. Reamur \n4. Kelvin \n"))
 if (pil == 1):
-    suhu= float(input("Masukkan Suhu Awal Celcius : "))
+    suhu= float(input("Silahkan masukkan Suhu Awal Celcius : "))
     pil2 = int(input("ubah celcius ke : \n1. Fahrenheit \n2. Reamur \n3. Kelvin \n"))
     if (pil2==1):
         print(suhu, "celcius = ", (9/5*suhu)+32 ,"Fahrenheit")
