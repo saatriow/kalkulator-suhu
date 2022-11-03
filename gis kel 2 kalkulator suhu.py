@@ -1,5 +1,6 @@
+print("Selamat Datang di Konversi Suhu")
 print("==========kalkulator suhu==========")
-print("Pilih suhu yang ingin dirubah")
+print("Silahkan pilih suhu yang ingin dirubah")
 pil = int(input("1. Celcius \n2. Farenheit \n3. Reamur \n4. Kelvin \n"))
 if (pil == 1):
     suhu= float(input("Masukkan Suhu celcius awal : "))
@@ -13,7 +14,7 @@ if (pil == 1):
     else:
         print("Tidak valid")
 elif (pil == 2):
-    suhu= float(input("Masukkan Suhu Farenheit awal : "))
+    suhu= float(input("Silahkan Masukkan Suhu Farenheit awal : "))
     pil2 = int(input("ubah ke : \n1. Celcius \n2. Reamur \n3. Kelvin\n"))
     if (pil2==1):
         print(suhu, "Fahrenhait = ", (5/9*(suhu-32)) ,"Celcius")
@@ -44,6 +45,6 @@ elif (pil==4):
     elif(pil2==3):
         print(suhu, "Kelvin = ", (4/5*(suhu-273)) ,"reamur")
     else:
-        print("Tidak valid")
+        print("Maaf Tidak valid")
 else:
-    print("tidak valid")
+    print("Tidak valid")
