@@ -45,6 +45,6 @@ elif (pil==4):
     elif(pil2==3):
         print(suhu, "Kelvin = ", (4/5*(suhu-273)) ,"Reamur")
     else:
-        print("Maaf Tidak valid")
+        print("Tidak valid")
 else:
     print("Tidak valid")
