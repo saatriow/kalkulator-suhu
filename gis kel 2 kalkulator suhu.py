@@ -25,7 +25,7 @@ elif (pil == 2):
     else:
         print("Tidak valid")
 elif (pil==3):
-    suhu= float(input("Masukkan Suhu awal Reamur : "))
+    suhu= float(input("Silahkan masukkan Suhu awal Reamur : "))
     pil2 = int(input("ubah ke : \n1. Celcius \n2. Fahrenheit \n3. Kelvin\n"))
     if (pil2==1):
         print (suhu, "Reamur = ", (5/4*suhu) ,"Celcius")
@@ -36,7 +36,7 @@ elif (pil==3):
     else:
         print("Tidak valid")
 elif (pil==4):
-    suhu= float(input("Masukkan Suhu awal Kelvin : "))
+    suhu= float(input("Silahkan masukkan Suhu awal Kelvin : "))
     pil2 = int(input("ubah ke : \n1. Celcius \n2. Fahrenheit \n3. reamur\n"))
     if (pil2==1):
         print (suhu, "Kelvin = ", suhu - 273 ,"Celcius")
