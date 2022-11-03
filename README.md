@@ -1,7 +1,7 @@
 # kalkulator-suhu
 ==== PROGRAM KALKULATOR SUHU ===
 
-(Celcius, Farenheit, Reamur, Kelvin)
+Program yang dapat mengkonversi suhu ke Celcius, Farenheit, Reamur, dan Kelvin
 
 Kelompok GIS 2
 1. M. Priambodo Satrio W. 
